@@ -93,7 +93,7 @@ class Media {
     }
   }
   
-// Book instance 
+// Book  
 const historyOfEverything = new Book('Bill Bryson', 'A Short Story of Nearly Everything', 544);
 historyOfEverything.toggleCheckOutStatus();
   
@@ -106,7 +106,7 @@ historyOfEverything.addRating(5);
   
 console.log(historyOfEverything.getAverageRating().toFixed(1));
   
-// Movie instance 
+// Movie  
 const speed = new Movie('Jan de Bont', 'Speed', 116, ['Sandra Bullock', 'Keanu Reeves']);
 speed.toggleCheckOutStatus();
   
@@ -119,7 +119,7 @@ speed.addRating(5);
   
 console.log(speed.getAverageRating().toFixed(1));
 
-// CD instance 
+// CD  
 const speakNow = new CD('Taylor Swift', 'Speak Now', ['Dear John', 'Sparks Fly', 'Back To December', 'Lask Kiss', 'Enchanted']);
 speakNow.toggleCheckOutStatus();
 
